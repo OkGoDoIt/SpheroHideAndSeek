@@ -1,0 +1,6 @@
+Hide and Seek with Sphero
+=========================
+
+Play hide and seek with multiple Sheros!  Pair 4 or more Spheros (settable as `numRequiredConnections`) and after an (annoyingly long) pairing process, one of them will glow gold.  That one is your goal.  Next they will move around and flash chaotically, after which you have a few seconds to find the goal ball before time is up.  The goal is to have it sense when you pick up a ball and respond according to if you were correct, but I didn't get there yet.  Also, you'll want to have them contained in a pen/fence, as their random movements don't stay nearby well yet.
+
+This is not complete, doesn't work 100%, and it probably not great coding style.  I made it in about 2 hours at a [hack night](http://spherotwilio.eventbrite.com/), using an unreleased and non-fully-working windows sdk for Sphero.  That SDK is in the bin directory as "SpheroCommunicator.dll", and to understand it you'll need to take a look at [their low-level API docs](https://s3.amazonaws.com/docs.gosphero.com/api/Sphero_API_1.20.pdf).
